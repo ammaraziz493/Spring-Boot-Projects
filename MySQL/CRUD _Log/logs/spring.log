@@ -1,0 +1,25 @@
+2024-09-06T14:38:48.896+05:00  INFO 29200 --- [main] com.example.CRUD.CrudApplication         : Starting CrudApplication using Java 17.0.11 with PID 29200 (C:\Users\Ammar\Desktop\Spring Boot Tut\MySQL\CRUD _Log\CRUD\target\classes started by Ammar in C:\Users\Ammar\Desktop\Spring Boot Tut\MySQL\CRUD _Log)
+2024-09-06T14:38:48.904+05:00 DEBUG 29200 --- [main] com.example.CRUD.CrudApplication         : Running with Spring Boot v3.2.9, Spring v6.1.12
+2024-09-06T14:38:48.905+05:00  INFO 29200 --- [main] com.example.CRUD.CrudApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-06T14:38:50.218+05:00  INFO 29200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-06T14:38:50.322+05:00  INFO 29200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2024-09-06T14:38:51.444+05:00  INFO 29200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-06T14:38:51.464+05:00  INFO 29200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T14:38:51.465+05:00  INFO 29200 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T14:38:51.586+05:00  INFO 29200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T14:38:51.586+05:00  INFO 29200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2024-09-06T14:38:51.901+05:00  INFO 29200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-06T14:38:52.031+05:00  INFO 29200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-09-06T14:38:52.087+05:00  INFO 29200 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-06T14:38:52.376+05:00  INFO 29200 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-06T14:38:52.408+05:00  INFO 29200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-06T14:38:52.989+05:00  INFO 29200 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3686389
+2024-09-06T14:38:52.992+05:00  INFO 29200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-06T14:38:53.073+05:00  WARN 29200 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-06T14:38:54.152+05:00  INFO 29200 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-06T14:38:54.272+05:00  INFO 29200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T14:38:55.034+05:00  WARN 29200 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-06T14:38:55.493+05:00  WARN 29200 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-06T14:38:55.494+05:00  INFO 29200 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-06T14:38:55.497+05:00  INFO 29200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-06T14:38:55.509+05:00  INFO 29200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
